@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery Ui css -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Media -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <title> jQuery 002 </title>
+  </head>
+  <body>
+    
+
+    <!-- Header-Section Start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light header_section">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center custom_menu" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_01.html">jQueryUi 01</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_02.html">jQueryUi 02</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_03.html">jQueryUi 03</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_04.html">jQueryUi 04</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_05.html">jQueryUi 05</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header-Section End -->
+
+       <!-- Menu-Start -->
+       <div class="container mt-5">
+        <h2 class="text-center"> Menu </h2>
+        <ul id="menu">
+          <li>
+            <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+          </li>
+          <li>
+            <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+          </li>
+          <li>
+            <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+          </li>
+          <li class="ui-state-disabled">
+            <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+          </li>
+          <li>
+            <div>Playback</div>
+            <ul>
+              <li>
+                <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-play"></span>Play</div>
+              </li>
+              <li>
+                <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div>Learn more about this menu</div>
+          </li>
+        </ul>
+      </div>
+      <!-- Menu-End -->
+
+      <!-- Progressbar-Start -->
+      <div class="container">
+        <h2 class="text-center mt-5">
+          ProgressBar
+        </h2>
+        <div id="progressbar"><div class="progress-label">Loading...</div></div>
+      </div>
+      <!-- ProgressBar-End -->
+
+      <!-- Selectmenu-Start -->
+      <div class="container">
+        <h2 class="text-center mt-5">Selectmenu</h2>
+        <div class="demo">
+ 
+          <form action="#">
+           
+            <div id="circle" class="select_menu"></div>
+           
+            <fieldset>
+              <label for="radius">Circle radius</label>
+              <select name="radius" id="radius">
+                <option value="50">50px</option>
+                <option value="100">100px</option>
+                <option value="150" selected="selected">150px</option>
+                <option value="200">200px</option>
+                <option value="250">250px</option>
+              </select>
+           
+              <label for="color">Circle color</label>
+              <select name="color" id="color">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="yellow" selected="selected">Yellow</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+            </fieldset>
+           
+          </form>
+           
+          </div>
+      </div>
+      <!-- Selectmenu-End -->
+
+
+
+    <!-- JS Links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

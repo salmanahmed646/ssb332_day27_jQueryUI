@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery Ui css -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Media -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <title> jQueryUi 001 </title>
+  </head>
+  <body>
+    
+
+    <!-- Header-Section Start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light header_section">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center custom_menu" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_01.html">jQueryUi 01</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_02.html">jQueryUi 02</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_03.html">jQueryUi 03</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_04.html">jQueryUi 04</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_05.html">jQueryUi 05</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header-Section End -->
+
+    <!-- Checkbox and Radio-Start -->
+    <div class="container">
+      <div class="widget mt-5">
+        <h1>Checkbox and radio button widgets</h1>
+       
+        <h2>Radio Group</h2>
+        <fieldset>
+          <legend>Select a Location: </legend>
+          <label for="radio-1">New York</label>
+          <input type="radio" name="radio-1" id="radio-1">
+          <label for="radio-2">Paris</label>
+          <input type="radio" name="radio-1" id="radio-2">
+          <label for="radio-3">London</label>
+          <input type="radio" name="radio-1" id="radio-3">
+        </fieldset>
+       
+        <h2>Checkbox</h2>
+        <fieldset>
+          <legend>Hotel Ratings: </legend>
+          <label for="checkbox-1">2 Star</label>
+          <input type="checkbox" name="checkbox-1" id="checkbox-1">
+          <label for="checkbox-2">3 Star</label>
+          <input type="checkbox" name="checkbox-2" id="checkbox-2">
+          <label for="checkbox-3">4 Star</label>
+          <input type="checkbox" name="checkbox-3" id="checkbox-3">
+          <label for="checkbox-4">5 Star</label>
+          <input type="checkbox" name="checkbox-4" id="checkbox-4">
+        </fieldset>
+       
+        <h2>Checkbox nested in label</h2>
+        <fieldset>
+          <legend>Bed Type: </legend>
+          <label for="checkbox-nested-1">2 Double
+            <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+          </label>
+          <label for="checkbox-nested-2">2 Queen
+            <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+          </label>
+          <label for="checkbox-nested-3">1 Queen
+            <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+          </label>
+          <label for="checkbox-nested-4">1 King
+            <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+          </label>
+        </fieldset>
+        <button type="submit" class="btn btn-outline-primary mt-4"> Submit </button>
+      </div>
+    </div>
+    <!-- Checkbox and Radio-End -->
+
+
+    <!-- ControlGroup-Start -->
+    <div class="container">
+      <div class="widget mt-5">
+        <h1 class="text-center">Controlgroup</h1>
+        <fieldset>
+          <legend>Rental Car</legend>
+          <div class="controlgroup">
+            <select id="car-type">
+              <option>Compact car</option>
+              <option>Midsize car</option>
+              <option>Full size car</option>
+              <option>SUV</option>
+              <option>Luxury</option>
+              <option>Truck</option>
+              <option>Van</option>
+            </select>
+            <label for="transmission-standard">Standard</label>
+            <input type="radio" name="transmission" id="transmission-standard">
+            <label for="transmission-automatic">Automatic</label>
+            <input type="radio" name="transmission" id="transmission-automatic">
+            <label for="insurance">Insurance</label>
+            <input type="checkbox" name="insurance" id="insurance">
+            <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+            <input id="horizontal-spinner" class="ui-spinner-input">
+            <button class="btn btn-dark">Book Now!</button>
+          </div>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Rental Car</legend>
+          <div class="controlgroup-vertical">
+            <select>
+              <option>Compact car</option>
+              <option>Midsize car</option>
+              <option>Full size car</option>
+              <option>SUV</option>
+              <option>Luxury</option>
+              <option>Truck</option>
+              <option>Van</option>
+            </select>
+            <label for="transmission-standard-v">Standard</label>
+            <input type="radio" name="transmission-v" id="transmission-standard-v">
+            <label for="transmission-automatic-v">Automatic</label>
+            <input type="radio" name="transmission-v" id="transmission-automatic-v">
+            <label for="insurance-v">Insurance</label>
+            <input type="checkbox" name="insurance" id="insurance-v">
+            <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+            <input id="vertical-spinner" class="ui-spinner-input">
+            <button class="btn btn-dark">Book Now!</button>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <!-- ControlGroup-End -->
+
+ 
+
+
+
+
+    <!-- JS Links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

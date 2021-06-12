@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery Ui css -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Media -->
+    <link rel="stylesheet" href="css/media.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <title> jQueryUi 003 </title>
+  </head>
+  <body>
+    
+
+    <!-- Header-Section Start -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light header_section">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center custom_menu" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_01.html">jQueryUi 01</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_02.html">jQueryUi 02</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_03.html">jQueryUi 03</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_04.html">jQueryUi 04</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="jquery_05.html">jQueryUi 05</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Header-Section End -->
+
+    <!-- ToolTip-Start -->
+    <div class="container mt-5">
+      <h2 class="text-center mt-5"> ToolTip </h2>
+      <form class="tooltip_custom">
+        <fieldset>
+          <div>
+            <label for="firstname">Firstname</label>
+            <input id="firstname" name="firstname" title="Please provide your firstname.">
+          </div>
+          <div>
+            <label for="lastname">Lastname</label>
+            <input id="lastname" name="lastname" title="Please provide also your lastname.">
+          </div>
+          <div>
+            <label for="address">Address</label>
+            <input id="address" name="address" title="Your home or work address.">
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <!-- Tooltip-End -->
+
+    <!-- color_animation-Start -->
+    <div class="container">
+      <h2 class="text-center mt-5"> Color Animation </h2>
+      <div class="toggler color_animation">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+       
+      <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+    </div>      
+    <!-- color-Animation-End -->
+
+    <!-- Droppable-Start -->
+    <div class="container">
+      <h2 class="text-center mt-5"> Droppable </h2>
+      <div id="droppable_custom" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+       
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+    </div>
+    <!-- Droppable-End -->
+
+
+
+
+
+    <!-- JS Links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

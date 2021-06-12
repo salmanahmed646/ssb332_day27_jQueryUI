@@ -1,0 +1,223 @@
+/* Header-Section Start */
+.header_section {
+  background-color: #3498db;
+}
+.custom_menu ul li {
+  padding-right: 40px;
+}
+.custom_menu ul li a {
+  color: #fff !important;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.custom_menu ul li a:hover {
+  color: #333 !important;
+}
+/* Header-Section End */
+
+/* Draggle-Start */
+#draggable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+/* Draggable-End */
+
+/* ControlGroup-Start */
+.ui-controlgroup-vertical {
+  width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+  text-align: center;
+}
+#car-type-button {
+  width: 120px;
+}
+.ui-spinner-input {
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+  width: 20px;
+}
+/* ControlGroup-End */
+
+/* Menu Start */
+.ui-menu {
+  width: 150px;
+}
+/* Menu End */
+
+/* ProgressBar-Start */
+.ui-progressbar {
+  position: relative;
+}
+.progress-label {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+/* ProgressBar-End */
+
+/* Selectmenu-Start */
+.select_menu fieldset {
+  border: 0;
+  margin-left: 300px;
+}
+.select_menu label {
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+#circle {
+  float: left;
+  background: yellow;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+/* Selectmenu-End */
+
+/* ToolTip-Start */
+l.tooltip_custom label {
+  display: inline-block;
+  width: 5em;
+}
+.tooltip_custom fieldset div {
+  margin-bottom: 2em;
+}
+.tooltip_custom fieldset .help {
+  display: inline-block;
+}
+.ui-tooltip {
+  width: 210px;
+}
+/* ToolTip-End */
+
+/* ColorAnimation Start */
+.toggler {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect {
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+  position: relative;
+  background: #fff;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+/* Coloranimation-Start */
+
+/* Droppable-Start */
+#droppable_custom {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+/* Droppable-End */
+
+/* jQuery 004 */
+/* Resizeable-start */
+#resizeable_container {
+  width: 300px;
+  height: 300px;
+}
+#resizeable_container h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+#resizable {
+  background-position: top left;
+  width: 150px;
+  height: 150px;
+}
+#resizable,
+#resizeable_container {
+  padding: 0.5em;
+}
+/* Resizeable-End */
+
+/* Selectable-Start */
+#feedback {
+  font-size: 1.4em;
+}
+#selectable .ui-selecting {
+  background: #feca40;
+}
+#selectable .ui-selected {
+  background: #f39814;
+  color: white;
+}
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+#selectable li {
+  margin: 3px;
+  padding: 1px;
+  float: left;
+  width: 100px;
+  height: 80px;
+  font-size: 4em;
+  text-align: center;
+}
+/* Selectable-End */
+
+/* jQuery 005 */
+
+/* SortAble-Start */
+.column {
+  width: 170px;
+  float: left;
+  padding-bottom: 100px;
+}
+.portlet {
+  margin: 0 1em 1em 0;
+  padding: 0.3em;
+}
+.portlet-header {
+  padding: 0.2em 0.3em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.portlet-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -8px;
+}
+.portlet-content {
+  padding: 0.4em;
+}
+.portlet-placeholder {
+  border: 1px dotted black;
+  margin: 0 1em 1em 0;
+  height: 50px;
+}
+/* SortAble-End */
